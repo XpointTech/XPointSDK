@@ -12,14 +12,11 @@ let package = Package(
             targets: ["XPointSDK"]
         ),
     ],
-    dependencies: [
-        .package(url: "https://github.com/bugfender/BugfenderSDK-iOS.git", "1.0.0" ..< "2.0.0")
-    ],
     targets: [
         .binaryTarget(
             name: "XPointSDK",
-            url: "https://downloads.xpoint.tech/XPointSDKXC-3.23.11.zip",
-            checksum: "2ac4a92b9b1a547f44f8749742caa4e26dc273ec6b52254874df718637183dc6"
+            url: "https://downloads.xpoint.tech/XPointSDKXC-3.23.100.zip",
+            checksum: "db80597332b9423c715c0ad97ca91b758319792c62887b943af7152289571f92"
         ),
     ]
 )
