@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name = 'XPointSDK'
   s.summary = 'XPointSDK'
-  s.version = '3.24.2-develop.5466'
+  s.version = '3.24.2-develop.5488'
   s.authors = 'XPoint'
   s.homepage = 'https://xpoint.tech/'
   s.ios.deployment_target = '10.0'
   s.cocoapods_version = '>= 1.9.0'
-  s.source = { :http => "https://downloads.xpoint.tech/develop/XPointSDKXC-3.24.2-develop.5466.zip" }
+  s.source = { :http => "https://downloads.xpoint.tech/develop/XPointSDKXC-3.24.2-develop.5488.zip" }
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
   s.vendored_frameworks = 'XPointSDK.xcframework'
   s.dependency 'BugfenderSDK', '~> 1.10.0'
