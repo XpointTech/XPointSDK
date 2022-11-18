@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "XPointSDK",
-            url: "https://downloads.xpoint.tech/release/XPointSDKXC-4.0.0-release.6038.zip",
-            checksum: "f5fe7426c559b26aaa3524ede5b9ed04f2947a074665f9910be3832c630fe7fc"
+            url: "https://downloads.xpoint.tech/release/XPointSDKXC-4.0.0-release.6133.zip",
+            checksum: "99ee98bf7e517b87145f2dc0e6d05c4d6922d14a1968acabe59ca564f49fb2f7"
         ),
     ]
 )
